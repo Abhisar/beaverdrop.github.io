@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ff0066" />
+    <title>BeaverDrop — Help center</title>
+    <meta
+      name="description"
+      content="Help topics for BeaverDrop: inventory, craft costing, POS, drops, exports, and troubleshooting on iOS."
+    />
+    <link rel="canonical" href="https://abhisar.github.io/beaverdrop.github.io/help.html" />
+    <meta property="og:title" content="BeaverDrop — Help center" />
+    <meta
+      property="og:description"
+      content="Inventory, costing, POS, and data help for BeaverDrop on iPhone and iPad."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abhisar.github.io/beaverdrop.github.io/help.html" />
+    <meta property="og:image" content="https://abhisar.github.io/beaverdrop.github.io/assets/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=DM+Sans:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/site.js"></script>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="index.html" aria-label="BeaverDrop home">
+        <span class="brandMark" aria-hidden="true">
+          <img class="brandIcon" src="assets/app-icon-1024.png" width="1024" height="1024" alt="" decoding="async" />
+        </span>
+        <span class="brandText">BeaverDrop</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="navAppStore" href="#app-store" target="_blank" rel="noopener noreferrer">App Store</a>
+        <a class="pill" href="help.html">Help center</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <button class="menuBtn" type="button" aria-label="Open menu" data-menu>
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main class="page">
+      <p class="kicker">Help center</p>
+      <h1>How to use BeaverDrop</h1>
+      <p>
+        These guides mirror how the app is structured: inventory and drops, craft projects, event POS, and
+        keeping your data safe offline.
+      </p>
+
+      <nav class="panel" aria-label="On this page">
+        <h2 style="margin-top: 0">On this page</h2>
+        <ul class="toc">
+          <li><a href="#inventory">Inventory &amp; drops</a></li>
+          <li><a href="#craft">Craft costing</a></li>
+          <li><a href="#pos">Event POS</a></li>
+          <li><a href="#export">Export &amp; backup</a></li>
+          <li><a href="#tips">Tips</a></li>
+        </ul>
+      </nav>
+
+      <div class="panel" id="inventory">
+        <h2>Inventory &amp; drops</h2>
+        <p>
+          Build a catalog with photos, SKUs, categories, and quantities. Assign items to drops or pop-up
+          events so you can filter what matters for the next release.
+        </p>
+        <p>
+          <strong>Drops</strong> are managed from Settings: creating or editing a drop updates labels and
+          dates. <strong>Deleting a drop</strong> removes the drop and clears its assignment from items — it
+          does <strong>not</strong> delete inventory rows.
+        </p>
+        <p>
+          Use barcode or QR scanning where available to adjust stock quickly. Watch for low-stock alerts on
+          the dashboard-style views.
+        </p>
+      </div>
+
+      <div class="panel" id="craft">
+        <h2>Craft costing</h2>
+        <p>
+          Create projects with materials, units, labour hours, and overhead. The material library keeps
+          supplier-friendly rows you can reuse across batches.
+        </p>
+        <p>
+          Destructive actions (deleting library materials, lines, or whole projects) should ask for
+          confirmation — snapshots on older projects preserve historical costs.
+        </p>
+        <p>
+          Generate quotes and invoices as PDFs when you need something shareable; CSV exports help when
+          spreadsheets are part of your workflow.
+        </p>
+      </div>
+
+      <div class="panel" id="pos">
+        <h2>Event POS</h2>
+        <p>
+          Events bundle dates, location, default currency, and tax configuration. The POS surface uses large
+          tiles and a cart tuned for noisy, bright environments.
+        </p>
+        <p>
+          <strong>Deleting an event</strong> is destructive for that event’s sales and links — the app
+          should confirm before removal. Keep paper or exported backups for anything you might need later.
+        </p>
+        <p>
+          Receipts and end-of-day summaries can be exported for accounting; tender mix and tax lines follow
+          the rules you configured for the event.
+        </p>
+      </div>
+
+      <div class="panel" id="export">
+        <h2>Export &amp; backup</h2>
+        <p>
+          CSV exports help with Excel or Google Sheets. For full restores, prefer the versioned backup flow
+          documented in-app — it preserves more structure than flat CSV alone.
+        </p>
+        <p>
+          If you enable auto-export, the app writes a debounced copy under its sandbox
+          <span class="mono">Documents/BeaverDropAutoExport/beaverbackup.beaverbackup</span> (same relative path
+          shown in Settings). That keeps a latest snapshot on device; to archive off-phone, use
+          <strong>Export .beaverbackup</strong> in Settings and save via the share sheet (Files, iCloud Drive,
+          AirDrop, mail). Watch for storage or write failures — you should get a visible error with retry.
+        </p>
+      </div>
+
+      <div class="panel" id="tips">
+        <h2>Tips</h2>
+        <ul>
+          <li>Set tax presets once at the app level, then override only where a listing truly differs.</li>
+          <li>Keep social captions short in the dedicated field — copy to clipboard when you post a drop.</li>
+          <li>On iPad, use the extra width for side-by-side flows where the app offers them.</li>
+          <li>If animations feel strong, enable reduced motion in iOS Settings — BeaverDrop respects it.</li>
+        </ul>
+      </div>
+
+      <p class="small" style="margin-top: 24px">
+        Still stuck? <a href="support.html">Contact support</a> ·
+        <a href="index.html#faq">FAQ</a> · <a href="privacy.html">Privacy</a>
+      </p>
+    </main>
+
+    <footer class="footer">
+      <div class="footerGrid">
+        <div>
+          <div class="brand footerBrand">
+            <span class="brandMark" aria-hidden="true">
+              <img class="brandIcon" src="assets/app-icon-1024.png" width="1024" height="1024" alt="" decoding="async" />
+            </span>
+            <span class="brandText">BeaverDrop</span>
+          </div>
+          <p class="muted">Help center</p>
+        </div>
+        <div class="footerLinks">
+          <a href="index.html">Home</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <span class="muted2">© <span data-year></span> BeaverDrop</span>
+      </div>
+    </footer>
+  </body>
+</html>

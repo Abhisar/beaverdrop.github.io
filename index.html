@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ff0066" />
+    <meta
+      name="description"
+      content="BeaverDrop is an offline-first iOS app for small sellers: inventory with drops, craft/DIY costing, and event POS on iPhone and iPad. Export CSV and .beaverbackup backups — no account required."
+    />
+    <meta
+      name="keywords"
+      content="BeaverDrop, inventory app, craft costing, POS, pop-up shop, offline inventory, micro business, iOS"
+    />
+    <title>BeaverDrop — Pop-up inventory, craft costing &amp; event POS (iOS)</title>
+    <link rel="canonical" href="https://abhisar.github.io/beaverdrop.github.io/" />
+    <meta property="og:title" content="BeaverDrop — Inventory, craft costing &amp; event POS" />
+    <meta
+      property="og:description"
+      content="Offline-first iOS app for inventory, craft costing, and event POS. CSV and .beaverbackup export — no account required."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abhisar.github.io/beaverdrop.github.io/" />
+    <meta property="og:image" content="https://abhisar.github.io/beaverdrop.github.io/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BeaverDrop" />
+    <meta
+      name="twitter:description"
+      content="Pop-up inventory, craft/DIY costing, and event POS — offline-first on iPhone &amp; iPad."
+    />
+    <meta name="twitter:image" content="https://abhisar.github.io/beaverdrop.github.io/assets/og-image.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=DM+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/site.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "BeaverDrop",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "iOS",
+        "description": "Offline-first iOS app: inventory and drops, craft costing, event POS. CSV exports and .beaverbackup restore.",
+        "url": "https://abhisar.github.io/beaverdrop.github.io/",
+        "installUrl": "https://apps.apple.com/app/beaverdrop/id0000000000",
+        "image": "https://abhisar.github.io/beaverdrop.github.io/assets/app-icon-1024.png",
+        "screenshot": [
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/01-inventory.png",
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/02-craft.png",
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/03-pos.png",
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/04-drops.png",
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/05-social.png",
+          "https://abhisar.github.io/beaverdrop.github.io/assets/screenshots/06-settings.png"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="#top" aria-label="BeaverDrop home">
+        <span class="brandMark" aria-hidden="true">
+          <img
+            class="brandIcon"
+            src="assets/app-icon-1024.png"
+            width="1024"
+            height="1024"
+            alt=""
+            decoding="async"
+          />
+        </span>
+        <span class="brandText">BeaverDrop</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#helps-you">Why BeaverDrop</a>
+        <a href="#features">Features</a>
+        <a href="#scenario">Example</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#how">How it works</a>
+        <a href="#backup">Backup</a>
+        <a href="#help">Help</a>
+        <a href="#faq">FAQ</a>
+        <a class="navAppStore" href="#app-store" target="_blank" rel="noopener noreferrer">App Store</a>
+        <a class="pill" href="help.html">Help center</a>
+      </nav>
+      <button class="menuBtn" type="button" aria-label="Open menu" data-menu>
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-deco" aria-hidden="true"></div>
+        <div class="hero-deco b2" aria-hidden="true"></div>
+        <div class="heroGrid">
+          <div class="heroCopy">
+            <p class="kicker">Offline-first · iPhone &amp; iPad</p>
+            <h1 id="hero-title">Inventory, craft costing, and event POS — on your device.</h1>
+            <p class="sub">
+              BeaverDrop helps you run pop-up inventory, price handmade work, and check out at markets —
+              locally stored, with optional CSV exports and a full <span class="mono">.beaverbackup</span> file
+              when you need to restore or move devices.
+            </p>
+            <div class="ctaRow">
+              <a
+                class="appStoreHighlight"
+                href="#app-store"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download BeaverDrop on the App Store"
+              >
+                <span class="appStoreHighlightTitle">BeaverDrop</span>
+                <img
+                  class="appStoreBadgeImg"
+                  src="assets/app-store-badge-white.svg"
+                  width="180"
+                  height="60"
+                  alt=""
+                  decoding="async"
+                />
+              </a>
+              <a class="btn ghost" href="#screenshots">See the app</a>
+            </div>
+            <div class="badges" aria-label="Highlights">
+              <div class="badge">
+                <div class="badgeTop">Offline</div>
+                <div class="badgeSub">Your data on device</div>
+              </div>
+              <div class="badge">
+                <div class="badgeTop">Flexible</div>
+                <div class="badgeSub">Tax &amp; currency</div>
+              </div>
+              <div class="badge">
+                <div class="badgeTop">Export</div>
+                <div class="badgeSub">CSV &amp; backups</div>
+              </div>
+            </div>
+            <p class="fineprint">
+              Replace the App Store link in <span class="mono">assets/site.js</span> when your app is live.
+              Privacy: <a href="privacy.html">Privacy policy</a>.
+            </p>
+          </div>
+
+          <div class="heroArt">
+            <div class="heroCard floaty" aria-hidden="true">
+              <div class="heroCardTop">
+                <span class="chipDot pink"></span>
+                <span class="chipDot yellow"></span>
+                <span class="chipDot cyan"></span>
+                <span class="heroCardTitle">Today</span>
+              </div>
+              <div class="marquee">
+                <div class="marquee-inner">
+                  <span>Low stock · enamel pins · restock before Saturday ·&nbsp;</span>
+                  <span>Low stock · enamel pins · restock before Saturday ·&nbsp;</span>
+                </div>
+              </div>
+              <div class="statGrid">
+                <div class="stat">
+                  <div class="statVal">42</div>
+                  <div class="statLab">SKUs</div>
+                </div>
+                <div class="stat">
+                  <div class="statVal">3</div>
+                  <div class="statLab">Drops</div>
+                </div>
+                <div class="stat">
+                  <div class="statVal">₹</div>
+                  <div class="statLab">Multi</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="helps-you" class="section alt">
+        <div class="sectionHead" data-reveal>
+          <h2>How BeaverDrop helps you</h2>
+          <p>
+            Whether you sell at markets, post drops online, or price small batches — you need stock, costs,
+            and checkout in one place. BeaverDrop keeps core data on device; it does not replace your
+            accountant or payment processor.
+          </p>
+        </div>
+        <div class="benefits">
+          <article class="benefit" data-reveal>
+            <div class="benefitIcon" aria-hidden="true">1</div>
+            <div>
+              <h3>Ship faster at pop-ups</h3>
+              <p>
+                Track inventory by drop or event, scan barcodes, and spot low stock before you pack the
+                van.
+              </p>
+            </div>
+          </article>
+          <article class="benefit" data-reveal>
+            <div class="benefitIcon" aria-hidden="true">2</div>
+            <div>
+              <h3>Price crafts with confidence</h3>
+              <p>
+                Build bills of materials, labour, and margin so your sticker price reflects real costs —
+                not guesses.
+              </p>
+            </div>
+          </article>
+          <article class="benefit" data-reveal>
+            <div class="benefitIcon" aria-hidden="true">3</div>
+            <div>
+              <h3>Ring sales at the event</h3>
+              <p>
+                POS with large tiles, cart, tax lines, and receipt PDFs you can share. Card payments still
+                go through your own terminal or app — BeaverDrop records the sale.
+              </p>
+            </div>
+          </article>
+          <article class="benefit" data-reveal>
+            <div class="benefitIcon" aria-hidden="true">4</div>
+            <div>
+              <h3>Own your data</h3>
+              <p>
+                Offline-first storage, exports, and backup-friendly flows — so a broken phone is not the
+                end of your season.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="sectionHead" data-reveal>
+          <h2>Features</h2>
+          <p>
+            What the app includes today: three modules that share the same tax and currency settings, plus
+            exports. Not included: cloud sync between devices, hosted storefronts, or filing taxes for you.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card" data-reveal>
+            <h3>Inventory &amp; drops</h3>
+            <p>SKUs, categories, images, flexible tax, and social-ready captions you can copy in one tap.</p>
+            <div class="pillRow">
+              <span class="tag">Barcode</span>
+              <span class="tag">Low stock</span>
+            </div>
+          </article>
+          <article class="card stagger-1" data-reveal>
+            <h3>Craft costing</h3>
+            <p>Materials library, BOM lines, labour and overhead — see margin before you post a price.</p>
+            <div class="pillRow">
+              <span class="tag">Quotes</span>
+              <span class="tag">PDF</span>
+            </div>
+          </article>
+          <article class="card stagger-2" data-reveal>
+            <h3>Event POS</h3>
+            <p>
+              Events link inventory (or event-only SKUs), cart, discounts, and payment notes. Receipt PDFs,
+              sales history, and period summaries you can export for spreadsheets.
+            </p>
+            <div class="pillRow">
+              <span class="tag">Receipt PDF</span>
+              <span class="tag">Sales export</span>
+            </div>
+          </article>
+          <article class="card stagger-3" data-reveal>
+            <h3>Currency &amp; tax</h3>
+            <p>App-wide defaults with overrides per item or event — built for messy real-world rules.</p>
+          </article>
+          <article class="card" data-reveal>
+            <h3>Export &amp; backup</h3>
+            <p>
+              Inventory and craft CSVs for spreadsheets; full <span class="mono">.beaverbackup</span> export
+              and import for restore. Optional auto-export after changes (see Backup section).
+            </p>
+          </article>
+          <article class="card" data-reveal>
+            <h3>iPhone &amp; iPad</h3>
+            <p>Adaptive layouts: fast flows on phone, more room for grids and carts on tablet.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="scenario" class="section alt">
+        <div class="sectionHead" data-reveal>
+          <h2>Example: weekend market</h2>
+          <p>
+            One way to use the three modules together — not a guarantee of how you’ll work, but a concrete
+            story.
+          </p>
+        </div>
+        <div class="scenarioStory" data-reveal>
+          <h3>Monday–Tuesday — catalog &amp; drop</h3>
+          <p>
+            You add or update inventory (photos, SKUs, prices, tax), assign items to a named drop for this
+            weekend’s fair, and copy a social caption when you post a preview online.
+          </p>
+          <h3>Wednesday — price a new batch</h3>
+          <p>
+            In Craft, you build a bill of materials for a tote run: materials, labour, margin — then export a
+            quote PDF if a wholesale buyer asks.
+          </p>
+          <h3>Saturday — sell at the stall</h3>
+          <p>
+            In POS, you open your event, ring items from inventory (or event SKUs), take cash or note an
+            external card payment, and send a receipt PDF. Completed sales reduce stock on linked inventory
+            lines.
+          </p>
+          <h3>Sunday night — records</h3>
+          <p>
+            You export a <span class="mono">.beaverbackup</span> through Share (save to Files or cloud), or turn
+            on auto-export so the app keeps the latest bundle on-device before Monday’s bookkeeping.
+          </p>
+          <p class="muted">
+            Sample data in the app (marked “Demo”) is only for learning — remove it from Settings when you go
+            live.
+          </p>
+        </div>
+      </section>
+
+      <section id="screenshots" class="section alt">
+        <div class="sectionHead" data-reveal>
+          <h2>Screenshots</h2>
+          <p>
+            Captured from the app with sample data (marketing UI test). Re-run
+            <span class="mono">./scripts/capture-marketing-screenshots.sh</span> after UI changes.
+          </p>
+        </div>
+        <div class="shots">
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/01-inventory.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/01-inventory.png"
+                width="1206"
+                height="2622"
+                alt="BeaverDrop inventory tab with sample data"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Inventory</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/02-craft.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/02-craft.png"
+                width="1206"
+                height="2622"
+                alt="Craft costing projects and BOM"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Craft costing</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/03-pos.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/03-pos.png"
+                width="1206"
+                height="2622"
+                alt="Event POS and checkout"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Event POS</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/04-drops.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/04-drops.png"
+                width="1206"
+                height="2622"
+                alt="Edit drop details in Settings"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Drops</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/05-social.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/05-social.png"
+                width="1206"
+                height="2622"
+                alt="Social share kit for an inventory item"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Social captions</figcaption>
+          </figure>
+          <figure class="shot" data-reveal>
+            <a href="assets/screenshots/06-settings.png" target="_blank" rel="noopener">
+              <img
+                src="assets/screenshots/06-settings.png"
+                width="1206"
+                height="2622"
+                alt="Settings, sample playground, and backup"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <figcaption>Settings &amp; backup</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="how" class="section">
+        <div class="sectionHead" data-reveal>
+          <h2>How it works</h2>
+          <p>Three beats — same as your weekend: plan, make, sell.</p>
+        </div>
+        <ol class="steps">
+          <li data-reveal>
+            <div class="stepNum">1</div>
+            <div>
+              <h3>Load your catalog</h3>
+              <p>Add items, photos, and tax rules. Group drops for the next pop-up or online release.</p>
+            </div>
+          </li>
+          <li data-reveal>
+            <div class="stepNum">2</div>
+            <div>
+              <h3>Cost what you make</h3>
+              <p>Build BOMs for batches, set labour, and generate quotes or invoices when someone asks.</p>
+            </div>
+          </li>
+          <li data-reveal>
+            <div class="stepNum">3</div>
+            <div>
+              <h3>Sell &amp; reconcile</h3>
+              <p>
+                Run POS at the event; linked inventory quantities update from completed sales. Export CSV or
+                backup when you need records outside the app.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="backup" class="section">
+        <div class="sectionHead" data-reveal>
+          <h2>Backup &amp; exports</h2>
+          <p>
+            Straight from what Settings provides: full bundle restore, CSV for spreadsheets, and optional
+            auto-export — not cloud sync between phones.
+          </p>
+        </div>
+        <div class="backupGrid">
+          <article class="backupCard" data-reveal>
+            <h3>Full backup (<span class="mono">.beaverbackup</span>)</h3>
+            <p>
+              <strong>Export</strong> and <strong>Import</strong> from Settings → Backup &amp; CSV. Import
+              shows a validation summary before replacing data on this device.
+            </p>
+            <ul>
+              <li>
+                The bundle is designed to restore business state including tax presets, inventory (with images
+                as implemented), drops, craft projects, POS events and sales — more complete than CSV alone.
+              </li>
+              <li>Use for new device setup or after reinstall; keep a copy somewhere you control.</li>
+            </ul>
+          </article>
+          <article class="backupCard" data-reveal>
+            <h3>CSV exports</h3>
+            <p>
+              Inventory CSV and craft/material CSV flows exist for spreadsheet workflows. CSV does
+              <strong>not</strong> necessarily restore every relation or image — the app explains limits in
+              Settings (“CSV vs full backup”).
+            </p>
+            <ul>
+              <li>Good for accountants, filters, and one-off edits — not a substitute for a full backup file.</li>
+            </ul>
+          </article>
+          <article class="backupCard" data-reveal>
+            <h3>Auto-export backup</h3>
+            <p>
+              Optional in Settings → Auto-export backup. When enabled, debounced writes after changes to a fixed
+              file inside the app’s on-device storage (same relative path shown in Settings):
+            </p>
+            <ul>
+              <li>
+                <span class="mono">Documents/BeaverDropAutoExport/beaverbackup.beaverbackup</span>
+              </li>
+            </ul>
+            <p>
+              If writing fails, you get a visible error with a chance to retry; manual export in Settings
+              remains the fallback.
+            </p>
+          </article>
+          <article class="backupCard" data-reveal>
+            <h3>Where files go</h3>
+            <p>
+              No hosted BeaverDrop account. You save exports through the system share sheet to Files, iCloud
+              Drive, AirDrop, or mail — same as other iOS apps.
+            </p>
+          </article>
+        </div>
+        <p class="backupNote" data-reveal>
+          Tax, invoice validity, and compliance depend on your region and how you configure fields — the app
+          includes a disclaimer; it does not provide legal or tax advice.
+        </p>
+      </section>
+
+      <section id="help" class="section alt">
+        <div class="sectionHead" data-reveal>
+          <h2>Help</h2>
+          <p>Docs-style topics for inventory, costing, POS, and data safety — written for busy sellers.</p>
+        </div>
+        <div class="helpStrip" data-reveal>
+          <div>
+            <h2>Help center</h2>
+            <p>
+              Step-by-step articles, troubleshooting, and links you can paste into App Store Connect as your
+              Support URL.
+            </p>
+          </div>
+          <div class="ctaButtons">
+            <a class="btn primary" href="help.html">Open help center</a>
+            <a class="btn ghost" href="support.html">Contact support</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="sectionHead" data-reveal>
+          <h2>FAQ</h2>
+          <p>Quick answers — full detail in <a href="help.html">Help center</a>.</p>
+        </div>
+        <div class="faq">
+          <details data-reveal>
+            <summary>Does BeaverDrop need an account?</summary>
+            <p>
+              No cloud account is required for core offline workflows. Your data stays on device unless you
+              export or enable optional file destinations.
+            </p>
+          </details>
+          <details data-reveal>
+            <summary>Is BeaverDrop only for India / one currency?</summary>
+            <p>
+              You can configure region, currency context, and tax presets for your workflows — not locked to
+              a single country model.
+            </p>
+          </details>
+          <details data-reveal>
+            <summary>Can I get my data out?</summary>
+            <p>
+              Yes. Export inventory and craft CSVs from the app where available, and use
+              <span class="mono">.beaverbackup</span> export/import for a full restore path. See
+              <a href="#backup">Backup &amp; exports</a> above.
+            </p>
+          </details>
+          <details data-reveal>
+            <summary>Does deleting a drop delete my inventory?</summary>
+            <p>
+              Deleting a drop removes the drop and clears assignments from items — inventory items remain
+              in your catalog.
+            </p>
+          </details>
+          <details data-reveal>
+            <summary>Who is responsible for tax compliance?</summary>
+            <p>
+              BeaverDrop provides tools and exports; legal compliance remains your responsibility — see
+              in-app trust and legal copy.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="get" class="darkBand">
+        <div class="sectionHead downloadSectionIntro" style="color: #fff" data-reveal>
+          <h2>Download BeaverDrop</h2>
+          <p style="color: rgba(255, 255, 255, 0.9)">Get the iOS app on the App Store when it ships.</p>
+        </div>
+        <div class="downloadBanner">
+          <a
+            class="appStoreHighlight appStoreHighlightLarge"
+            href="#app-store"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download BeaverDrop on the App Store"
+            data-reveal
+          >
+            <span class="appStoreHighlightTitle">BeaverDrop</span>
+            <img
+              class="appStoreBadgeImg"
+              src="assets/app-store-badge-white.svg"
+              width="180"
+              height="60"
+              alt=""
+              decoding="async"
+            />
+          </a>
+        </div>
+        <div class="ctaCard" style="margin-top: 28px; background: #111; color: #fff; border-color: #fff">
+          <div data-reveal>
+            <h2 style="margin: 0 0 8px; font-size: 20px; text-transform: uppercase">App Store Connect</h2>
+            <p style="margin: 0; color: rgba(255, 255, 255, 0.85)">
+              Paste these URLs into App Store Connect:
+              <span class="mono" style="color: #fff">
+                <br />
+                Marketing: <span data-url="marketing"></span><br />
+                Support: <span data-url="support"></span><br />
+                Privacy: <span data-url="privacy"></span><br />
+                Help: <span data-url="help"></span>
+              </span>
+            </p>
+          </div>
+          <div class="ctaButtons">
+            <a class="btn primary" href="help.html">Help</a>
+            <a class="btn ghost" href="privacy.html" style="background: #222; color: #fff; border-color: #fff"
+              >Privacy</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerGrid">
+        <div>
+          <div class="brand footerBrand">
+            <span class="brandMark" aria-hidden="true">
+              <img
+                class="brandIcon"
+                src="assets/app-icon-1024.png"
+                width="1024"
+                height="1024"
+                alt=""
+                decoding="async"
+              />
+            </span>
+            <span class="brandText">BeaverDrop</span>
+          </div>
+          <p class="muted">Pop-up inventory, craft costing, and event POS — on your iPhone or iPad.</p>
+        </div>
+        <div class="footerLinks">
+          <a class="footerAppStore" href="#app-store" target="_blank" rel="noopener noreferrer"
+            >Download on the App Store</a
+          >
+          <a href="help.html">Help center</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="#features">Features</a>
+          <a href="#scenario">Example</a>
+          <a href="#backup">Backup</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <span class="muted2">© <span data-year></span> BeaverDrop</span>
+      </div>
+    </footer>
+  </body>
+</html>

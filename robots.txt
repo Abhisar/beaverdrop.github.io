@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhisar.github.io/beaverdrop.github.io/sitemap.xml
