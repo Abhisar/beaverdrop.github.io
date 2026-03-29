@@ -21,20 +21,6 @@
     });
   }
 
-  const base = `${location.origin}${location.pathname.replace(/\/[^/]*$/, "/")}`.replace(/index\.html$/, "");
-  const urls = {
-    support: `${base}support.html`,
-    marketing: `${base}`,
-    privacy: `${base}privacy.html`,
-    help: `${base}help.html`,
-  };
-
-  for (const el of document.querySelectorAll("[data-url]")) {
-    const key = el.getAttribute("data-url");
-    if (!key || !(key in urls)) continue;
-    el.textContent = urls[key];
-  }
-
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (!reduceMotion) {
     const io = new IntersectionObserver(
