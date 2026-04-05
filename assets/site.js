@@ -1,5 +1,6 @@
 (() => {
-  const APP_STORE_URL = "https://apps.apple.com/app/beaverdrop/id0000000000";
+  const APP_STORE_URL =
+    "https://apps.apple.com/in/app/beaverdrop-inventory-pos/id6761336959";
 
   const year = document.querySelector("[data-year]");
   if (year) year.textContent = String(new Date().getFullYear());
